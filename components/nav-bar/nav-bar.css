@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 4fr;
+    background: white;
+    border-bottom: 1px solid #d4d4d4;
+    
+}
+
+.logo {
+    width: 80;
+    height: 35;
+    margin: 18px 0px 13px 90px;
+}
+
+.menu {
+    width: 620px;
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 28px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: black;
+}
+
+.account {
+    width: 153px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+
+.account a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+#vip {
+    color: #ffba45;
+}
+
+#headphone {
+    color: #707070;
+}
+
+#cloud {
+    color: #707070;
+}
+
+.search-bar {
+    margin: 18px 90px 13px 35px;
+}
+
+.search-bar input{
+    float: left;
+    width: 204px;
+    height: 30px;
+    margin-left: 15px;
+    border: 1px solid #2774d8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5px;
+}
+
+.search-bar button{
+    float: left;
+    margin: 0;
+    height: 34px;
+    width: 34px;
+    border: none;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: linear-gradient(90deg, #2A7DC9 0.17%, #52A8F7 100%);
+}
